@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.header-item {
+  /* border: 2px solid indigo; */
+}
+
+.header-item a span {
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 90px;
+  color: #4a4a4a;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header-item:nth-child(2) {
+  display: flex;
+  gap: 10px;
+}
+
+.item2:nth-child(2) img {
+  
+  border-radius: 100%;
+}
+
+.belowHeader {
+  background-color: #ff7700;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: -7px 5px 5px -4px rgba(0, 0, 0, 0.1);
+}
+
+.belowHeader > a {
+  color: #fff;
+  text-decoration: underline !important;
+}
+
+h1{
+  font-size: 44px;
+  font-weight: 400;
+  padding-bottom: 35px;
+  
+}
+.more-texts{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  }
+
+.hero-section {
+  display: flex;
+ 
+}
+
+.hero-item {
+  width: 50%;
+  height: 350px;
+  padding-left: 7%;
+  padding-top: 50px;
+  
+}
+
+.hero-item:nth-child(2) {
+  background-image: url("images/hero_academy.jpg");
+  background-size: cover;
+  background-repeat: none;
+}
+
+/* =============== card section style======= */
+
+.card-section {
+  background-color: #4285f4;
+  padding-left: 7%;
+  padding-bottom: 2%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.card-container .card-items {
+  background-color: #fff;
+  width: 290px;
+  height: 430px;
+  padding: 10px 30px;
+  border-radius: 3px;
+  box-shadow: -7px 5px 5px -4px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-items img {
+  width: 50px;
+}
+
+h3 {
+  font-size: 23px;
+  padding-bottom: 35px;
+}
+
+.card-items p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ======== instructor page ========== */
+
+.instructor-container {
+  background-color: #f2f2f2;
+  position: relative;
+  height: 200px;
+  box-shadow: -7px 5px 5px -4px rgba(0, 0, 0, 0.1);
+
+  margin: 20px 7% 50px;
+
+  text-align: left;
+  line-height: 25px; 
+}
+
+.instructor-section-title {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 7%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 100%;
+}
+
+.instructor-bio {
+  padding-left: 235px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+.instructor-name {
+  padding: 25px 10px 20px 235px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.instructor-section img {
+  position: absolute;
+}
+
+/* ========= mini courses section ===== */
+
+.mini-courses {
+  height: auto;
+}
+
+.mini-courses .title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 7%;
+}
+.more-text {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.mini-courses .card-container {
+  display: flex;
+  margin: 10px 7%;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.mini-courses .card {
+  width: 270px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: -7px 5px 5px -4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ========= footer section ======= */
+.footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-top: 5%;
+  height: 300px;
+}
+.footer .title {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 15px;
+  margin-left: 6%;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.footer-item {
+  width: 200px;
+  margin: 30px 20px;
+  text-align: center;
+  box-shadow: -7px 5px 5px -4px rgba(0, 0, 0, 0.1);
+}
+.footer-item a {
+  color: #000;
+}
+.footer-item img {
+  width: 50px;
+  padding-bottom: 20px;
+  display: block;
+  margin: auto;
+}
+
+.bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom button,
+select {
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.bottom button:hover,
+.bottom select:hover {
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
